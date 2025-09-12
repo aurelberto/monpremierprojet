@@ -1,0 +1,16 @@
+table, th, td {
+    border: solid 1px black;
+    border-collapse: collapse;
+     padding: 3px;
+     text-align:center
+
+}
+
+/* l'écriture de classe ou d'id sont tau format kebabcase */
+.table-wrapper {
+    width: 50%;
+}
+
+#table-100w{
+    width: 100%;
+}

@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Meta description est le petit texte descriptif fu lien dans la recherche du moteur de recherche -->
+    <meta nam="description" content="monpremiersite">
+    <!-- meta keyword est ignoré 0 cause d'abus -->
+    <meta name="keywords" content="jambon viande saucisse">
+    <!-- wive=device width: le site s'adapte automatiquement à l'ecran du peripherique, initia-scale  -> zoom 100% -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="VotreFormateurFavoris">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Jambon</title>
+</head>
+<body>
+
+    <!-- Le titre d'un site -->
+  <h1>Le titre de mon premier site</h1>  
+
+  <p>Mon premier paragraphe.</p>
+  <p><b>Mon texte est en gras</b></p>
+  <!-- cette ecriture ci-dessous est obselete -->
+  <p><strong>Mon texte est en gras</strong></p>
+  <!-- Cettre écriture ci-dessous est dangeureuse car la balise est utlisé pour les icones dans les blibliotheque javascript -->
+  <p><i>Mon texte en italique</i></p>
+  <p><em>Mon texte est italique</em></p>
+  <br>
+  <br>
+  <br>
+  <p>gros passage a la ligne</p>
+  <p><del>Mon texte est barré</del></p>
+  <p><u>Mon texte est surligné</u></p>
+  
+  <hr>
+  <h2>Les listes</h2>
+  <h3>listes ordonnées</h3>
+  <ol>
+    <li>objet1</li>
+    <li>objet2</li>
+    <li>Objet3</li>
+    <li>Jambon</li>
+    <li>Merguez</li>
+    <li>chipolatas</li>
+    <li>saucisses blanches</li>
+    <li>chorizo</li>
+
+  </ol>
+  <h3>Liste à puces</h3>
+  <ul>
+    <li>salade</li>
+    <li>cornichons</li>
+    <li>fromages</li>
+    <li>tomates</li>
+    <li>chou</li>
+  </ul>
+
+
+  <hr>
+  <h2>La balise image</h2>
+
+  <img src="https://image.jimcdn.com/app/cms/image/transf/dimension=402x10000:format=gif/path/s5dde8bff85c81b2f/image/i20e9b588f957c774/version/1451330273/animal-3d-autruche.gif" alt="Une belle autruche">
+  
+<br>
+
+
+  <img width="100px" src="https://image.jimcdn.com/app/cms/image/transf/dimension=402x10000:format=gif/path/s5dde8bff85c81b2f/image/i20e9b588f957c774/version/1451330273/animal-3d-autruche.gif" alt="Une belle autruche plus petite">
+
+<hr>
+
+<h2>Les tableaux</h2>
+  
+
+<table>
+  <!-- la balise suivante est optionelle -->
+   <thead>
+    <!-- <tr> -> table row déclare une migne dans le tableau -->
+    <tr>
+      <!--  <th> déclare une colonne mais dans l'entête du tableau -->
+      <th>Nom</th>
+      <th>Age</th>
+      <th>Pays</th>
+    </tr>
+   </thead>
+   <tbody>
+    <!-- Premiere ligne du tableau -->
+<tr>
+  <td>Carmen</td>
+  <td>33Ans</td>
+  <td>Espagne</td>
+</tr>
+<!-- deuxieme ligne du tableau -->
+<tr>
+  <td>Michelle</td>
+  <td>26Ans</td>
+  <td>USA</td>
+</tr>
+<!-- troisieme ligne du tableau -->
+<tr>
+  <td>Francois</td>
+  <td>43Ans</td>
+  <td>France</td>
+</tr>
+<!-- Le pied du tableau est optionel -->
+   </tbody>
+   <tfoot>
+    <tr>
+      <th>Nom</th>
+      <th>Age</th>
+      <th>Pays</th>
+    </tr>
+   </tfoot>
+
+
+</table>
+
+<br>
+
+
+<table>
+  <thead>
+    <tr>
+      <th>Nom de l'élève</th>
+      <th>Matière</th>
+      <th>Note</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td rowspan="3">
+        David
+      </td>
+      <td>Maths</td>
+      <td>16</td>
+    </tr>
+
+    <tr>
+<td>Physique</td>
+<td>18</td>
+<tr>
+  <td>Informatique</td>
+  <td>14</td>
+</tr>
+    <tr>
+      <td rowspan="3">
+        Alex
+      </td>
+      <td>Maths</td>
+      <td>16</td>
+    </tr>
+
+    <tr>
+<td>Physique</td>
+<td>14</td>
+<tr>
+  <td>Informatique</td>
+  <td>18</td>
+</tr>
+  </tbody>
+</table>
+
+<br>
+
+<table>
+  <thead>
+    <th colspan="3">Bingo de la muerte </th>
+  </thead>
+
+  <tbody>
+    <tr>
+<td>William Shatner 93</td>
+<td>Line Renaud 96 ans</td>
+<td>Philippe Bouvard 94 ans</td>
+    </tr>
+    
+<td>Bernadette Chirac 91 ans</td>
+<td>Renaud Séchan 72 ans</td>
+<td>Clint Eastwood 94 ans</td>
+<td>Yoko Ono 91 ans</td>
+    </tr>
+
+</table>
+<br>
+
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2"></th>
+      <th colspan="2">Moyenne</th>
+      <th rowspan="2">yeux bleus</th>
+    </tr>
+  
+
+  
+    <tr>
+      
+      <th>hauteur</th>
+      <th>poids</th>
+      
+    </tr>
+    </thead>  
+  <tbody>
+    <tr>
+    <td>Chats</td>
+    <td>0,6</td>
+    <td>12</td>
+    <td>25%</td>
+    </tr>
+    <tr>
+      <td>Chiens</td>
+      <td>0,3</td>
+      <td>4</td>
+      <td>40%</td>
+      
+    </tr>
+  </tbody>
+</table>
+
+
+<br>
+<br>
+<br>
+
+<div class="table-wrapper">
+  <table id="table-100w">
+    <tbody>
+
+      <tr>
+        <td>1</td>
+      <td colspan="2">2</td>
+      <td rowspan="2">3</td>
+      <td colspan="2" rowspan="2">4</td>
+
+      </tr>
+      <tr>
+        <td colspan="3">5</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>7</td>
+        <td>8</td>
+        <td colspan="2">9</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td colspan="2">11</td>
+        <td colspan="3">12</td>
+        <td rowspan="7">13</td>
+  
+      </tr>
+      <tr>
+        <td rowspan="3">14</td>
+        <td>15</td>
+        <td>16</td>
+        <td>17</td>
+        <td>18</td>
+      </tr>
+      <tr>
+        <td colspan="4">19</td>
+      </tr>
+      <tr>
+        <td colspan="2">20</td>
+        <td colspan="2">21</td>
+      </tr>
+      <tr>
+        <td colspan="5">22</td>
+      </tr>
+      <tr>
+        <td rowspan="2">23</td>
+        <td colspan="2">24</td>
+        <td>25</td>
+        <td>26</td>
+      </tr>
+      <tr>
+        <td>27</td>
+        <td colspan="2">28</td>
+        <td>29</td>
+      </tr>
+
+    </tbody>
+  </table>
+</div>
+
+  
+
+</html>
