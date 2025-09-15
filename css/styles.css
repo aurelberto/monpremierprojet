@@ -20,7 +20,7 @@ textarea{
 }
 
 
-h1{
+.titre_base {
     /* on color la couleur du texte */
     color: rgb(91, 87, 154);
     /* text-align-> l'alignement du texte */
@@ -31,6 +31,11 @@ h1{
     text-decoration: underline;
 }
 
+h1 {
+text-align: center;
+text-decoration: underline;
+
+}
 /* permet de séléctionner l'enfant direct de l'élément #liste-cours */
 #liste-cours > li {
     /* list-style none permet la desactivation des puces */
@@ -57,3 +62,29 @@ border: solid 1px #9a0d77;
 #liste-cours > li a:hover{
     color: #41D3BD;
 }
+
+ /* _____ _____ _   _______  _____   _____  _____ _____ 
+/  __ \  _  | | | | ___ \/  ___| /  __ \/  ___/  ___|
+| /  \/ | | | | | | |_/ /\ `--.  | /  \/\ `--.\ `--. 
+| |   | | | | | | |    /  `--. \ | |     `--. \`--. \
+| \__/\ \_/ / |_| | |\ \ /\__/ / | \__/\/\__/ /\__/ /
+ \____/\___/ \___/\_| \_|\____/   \____/\____/\____/ 
+                                                      */
+
+ 
+
+
+.green{
+    background-color: green
+}
+.blue{
+    background-color: blue;
+}
+.orange{
+    background-color: orange;
+}
+.square {
+    width: 50px;
+    height: 50px;
+}                      
+.round                             
