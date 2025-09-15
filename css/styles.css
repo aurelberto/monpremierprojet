@@ -18,3 +18,42 @@ table, th, td {
 textarea{
     resize: none;
 }
+
+
+h1{
+    /* on color la couleur du texte */
+    color: rgb(91, 87, 154);
+    /* text-align-> l'alignement du texte */
+    text-align: center;
+    /* backgroun color -> couleur du fond */
+    background-color: rgb(201, 169, 231);
+    /* le text decoration -> c'est le souligange, le barrage ect.. */
+    text-decoration: underline;
+}
+
+/* permet de séléctionner l'enfant direct de l'élément #liste-cours */
+#liste-cours > li {
+    /* list-style none permet la desactivation des puces */
+    list-style: none;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    border: solid 1px #C7BBC4;
+    width: fit-content;
+    padding: 3px;
+    border-radius: 5px;
+    background-color: #E43F6F;
+    
+}
+
+#liste-cours > li a{
+text-decoration: none; 
+color: #593F62;
+}
+
+#liste-cours > li:hover{
+background-color: #860429;
+border: solid 1px #9a0d77;
+}
+#liste-cours > li a:hover{
+    color: #41D3BD;
+}
