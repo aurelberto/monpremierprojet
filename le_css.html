@@ -13,6 +13,68 @@
 
   <div class="green square"></div>
   <div class="orange square"></div>
-  <div class="blue square"></div>
-</body>
+  <div class="blue square round"></div>
+  <p>Les div, à chaque fois qu'on les appelle, passent à la ligne -> elles sont par défaut en display:block</p>
+
+  <p>La balise p, elle même est en display:block</p>
+
+  <p>la balise <span class="text-color-red">span</span>, est en display: <span class="text-color-red">inline</span></p>
+
+  <div class="cobaye2 blue square"></div>
+  <div class="cobaye2 green square"></div>
+  <div class="cobaye2 orange square"></div>
+  <!--  exemple une navbar -->
+
+    <div class="nav-bar">
+      <ul class="nav-bar-list">
+        <li><a href="#">Catalogue</a></li>
+        <li><a href="#">Promo</a></li>
+        <li> <a href="#">Contact</a></li>
+      </ul>
+    </div>
+
+    <hr>
+
+    <h2>Les combinateurs</h2>
+    <p>Les combinateurs CSS permettent de cibler des éléments HTML en fonction de leur relation avec d'autres éléments</p>
+
+    <p>Imaginons deux éléments HTML E et F </p>
+
+    <ol>
+      <li>Enfants direct : <code>E > F</code></li>
+      <li>Tous les enfants  : <code>E F</code></li>
+      <li>Les frateries adjacentes : <code>E + F</code></li>
+      <li>Tous les frères : <code>E ~ F</code></li>
+    </ol>
+
+    <h3>1. Enfants directs</h3>
+    <div class="Parents">
+      <p>Enfants directs</p>
+      <div>
+        <p>Enfant pas direct</p>
+      </div>
+    </div>
+
+<h3>2. Tous les enfants</h3>
+    <div class="all-children-parents">
+      <p>Enfants directs</p>
+      <div>
+        <p>Enfant pas direct</p>
+      </div>
+    </div>
+
+<h3>3. Fraterie adjacente</h3>
+<h4>Titre Frère</h4>
+<p>Frère1</p>
+<p>frère2</p>
+<p>Frère3</p>
+
+<h3>4. Tous les frères</h3>
+
+<h5>Titre Frères très petit</h5>
+<p>Frère1</p>
+<p>frère2</p>
+<p>Frère3</p>
+    
+  </body>
 </html>
