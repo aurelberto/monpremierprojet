@@ -1,3 +1,19 @@
+@font-face {
+    font-family: "Delius";
+    src: url("../fonts/Delius-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Tag";
+    src: url("../fonts/Tagesschrift-Regular.ttf") format("Truetype");
+}
+
+body{
+    font-family: "Delius", sans-serif;
+}
+
+
+
 table, th, td {
     border: solid 1px black;
     border-collapse: collapse;
@@ -149,4 +165,75 @@ h4 + p {
 h5 ~ p {
     color: orangered;
     font-weight: bold;
+}
+/* Les pseudos éléments */
+
+.text-chiant::first-letter {
+color: red;
+font-weight: bold;
+/* 3 rem est equivalent à 3 fois la police de base */
+font-size: 3rem;
+}
+
+#super-button{
+    border: solid 1PX rgb(201, 169, 231);
+    background-color: aqua;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+#super-button:hover {
+    border: solid 1PX rgb(201, 169, 231);
+    background-color: rgb(34, 18, 206);
+}
+
+#super-button::after {
+    /* Mettre toujours la propriété content */
+    content: "❤";
+    color: red;
+}
+
+#super-button:hover::after {
+    content: "👍";
+    transform: scale(1.3);
+    display: inline-block;
+    }
+
+    .box p {
+    color: red;
+    }
+
+    p + span {
+  color: green;
+}
+
+p ~ span {
+  color: blue;
+}
+
+.container > p {
+  color: purple;
+}
+
+.container .box h2 {
+  color: orange;
+}
+ 
+.box h2::before {
+    content: "→";
+}
+.box p::after {
+    content: "—" ;
+    font-style: italic;
+}
+.container > p::after {
+font-size: 0.5rem;
+content: "(important)";
+}
+
+.text-chiant {
+    font-family: "Tag", sans-serif;
+    background-color: rgb(193, 171, 81);
 }
