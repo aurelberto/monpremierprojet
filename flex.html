@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Flex</title>
+
+
+</head>
+<body>
+    <h1>Les Flexbox -> Flexible Box Layout</h1>
+    <p>Les Flex sont un système de mise en page CSS, il permet d'aligner, de répartir et d'organiser facilement les éléments à l'interieur d'un <span class="text-color-red"><b>conteneur</b></span>.</p>
+
+<div class="container-flex">
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+</div>
+
+<h2>Les propriéteés principales des Flexbox</h2>
+<ul>
+    <li>flex-direction: définit la direction: row(en ligne) ou columm(colonne)</li>
+    <li>justify-content: gère l'alignement de l'axe principal</li>
+    <li>align-items: gère l'alignement de l'axe secondaire</li>
+    <li>flex-wrap: permet de revenir à la ligne</li>
+</ul>
+
+    <h3>Flex direction row</h3>
+    <div class="container-flex">
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+</div>
+
+<br>
+
+<h3>Flex direction column</h3>
+    <div class="container-flex col">
+    <div class="box-flex-col"></div>
+    <div class="box-flex-col"></div>
+    <div class="box-flex-col"></div>
+</div>
+
+<h3>Justify-content</h3>
+<h4>Start</h4>
+
+<p>Par défaut, justify-content est en mode start</p>
+
+<div class="container-flex">
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+</div>
+
+<h4>Center</h4>
+<div class="container-flex end">
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+</div>
+
+<h4>End</h4>
+<div class="container-flex center">
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+</div>
+
+<h4>space-between</h4>
+<div class="container-flex space-between">
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+</div>
+
+<h4>space-evenly</h4>
+<div class="container-flex space-evenly">
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+    
+</div>
+
+<h4>space-around</h4>
+<div class="container-flex space-around">
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+    
+</div>
+
+<h3>Flex direction column</h3>
+
+<h4>Start</h4>
+    <div class="container-flex col">
+    <div class="box-flex-col"></div>
+    <div class="box-flex-col"></div>
+    <div class="box-flex-col"></div>
+</div>
+
+<h4>End</h4>
+    <div class="container-flex col end">
+    <div class="box-flex-col"></div>
+    <div class="box-flex-col"></div>
+    <div class="box-flex-col"></div>
+</div>
+
+<h4>center</h4>
+    <div class="container-flex col center">
+    <div class="box-flex-col"></div>
+    <div class="box-flex-col"></div>
+    <div class="box-flex-col"></div>
+</div>
+<h4>space-between</h4>
+    <div class="container-flex col space-between">
+    <div class="box-flex-col"></div>
+    <div class="box-flex-col"></div>
+    <div class="box-flex-col"></div>
+</div>
+
+<h4>space-evenly</h4>
+    <div class="container-flex col space-evenly">
+    <div class="box-flex-col"></div>
+    <div class="box-flex-col"></div>
+    <div class="box-flex-col"></div>
+</div>
+<h4>space-around</h4>
+    <div class="container-flex col space-around">
+    <div class="box-flex-col"></div>
+    <div class="box-flex-col"></div>
+    <div class="box-flex-col"></div>
+</div>
+
+<h3>Align Items -> Flex direction row</h3>
+<h4>Align Items : start</h4>
+
+<div class="container-flex space-evenly">
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+    
+</div>
+ <h4>Align Item : end</h4>
+<div class="container-flex space-evenly align-items">
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+    
+</div>
+<h4>Align item: center</h4>
+<div class="container-flex space-evenly align-items-center">
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+    
+</div>
+<h4>Align item : stretch</h4>
+<!-- Actuellement il ne fonctionne pas car nous avons mit une taille au boxflex, sinon elles se seraient adapter à leur conteneur -->
+<div class="container-flex space-evenly align-items-stretch">
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+    
+</div>
+<h3>Align Items -> Flex direction col</h3>
+
+<h4>space-evenly</h4>
+    <div class="container-flex col space-evenly align-items-end">
+    <div class="box-flex-col"></div>
+    <div class="box-flex-col"></div>
+    <div class="box-flex-col"></div>
+</div>
+
+<h4>space-around</h4>
+    <div class="container-flex col space-around align-items-center">
+    <div class="box-flex-col"></div>
+    <div class="box-flex-col"></div>
+    <div class="box-flex-col"></div>
+</div>
+<h4>space-between</h4>
+    <div class="container-flex col space-between align-items-stretch">
+    <div class="box-flex-col"></div>
+    <div class="box-flex-col"></div>
+    <div class="box-flex-col"></div>
+</div>
+
+<h3>Flex-wraps</h3>
+
+
+<div class="container-flex space-evenly wrap">
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+    <div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+<div class="box-flex"></div>
+
+
+</div>
+
+<hr>
+
+
+
+</body>
+</html>
+

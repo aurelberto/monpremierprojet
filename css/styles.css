@@ -237,3 +237,63 @@ content: "(important)";
     font-family: "Tag", sans-serif;
     background-color: rgb(193, 171, 81);
 }
+
+/* flex */
+
+.container-flex {
+    /* c'est toujours le conteneur des éléments qui à le display flex */
+    /* Par défaut, les éléments dans le conteneur seront alignés horizontalement */
+    display: flex;
+    background-color: aquamarine;
+    height: 30vh;
+    
+}
+
+.box-flex{
+    height: 20%;
+    /* Pour éviter de calculer la largeur, on utilise une mise à l'échelle */
+    /* width: calc(30vh * 0.2); */
+    aspect-ratio: 1/1;
+    background-color: chocolate;
+    
+}
+
+.box-flex-col {
+    width: 6vh;
+    aspect-ratio: 1/1;
+    background-color: crimson;
+    
+}
+
+
+.col {
+    flex-direction: column;
+}
+
+.end{
+    justify-content: end;
+}
+.center{
+    justify-content: center;
+}
+.space-between{
+    justify-content: space-between;
+}
+.space-evenly{
+    justify-content: space-evenly;
+}
+.space-around{
+    justify-content: space-around;
+}
+.align-items-end{
+    align-items: end;
+}
+.align-items-center{
+    align-items: center;
+}
+.align-items-stretch{   
+    align-items: stretch;
+}
+.wrap{
+    flex-wrap: wrap;
+}

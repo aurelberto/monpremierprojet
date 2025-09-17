@@ -1,0 +1,102 @@
+.container-flex{
+    display: flex;
+    background-color: #41D3BD;
+    height: 30vh;
+    gap: 1rem;
+    width: 100%;
+    border: dashed 2px;
+}
+.box-flex{
+    height: 30%;
+    aspect-ratio: 1/1;
+    background-color: blue;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+.center{
+    justify-content: center;
+}
+
+.align-center{
+    align-items: center;
+}
+/* Couleurs */
+  .red { background-color: #e74c3c; }
+  .blue { background-color: #3498db; }
+  .green { background-color: #2ecc71; }
+  .orange { background-color: #f39c12; }
+  .purple { background-color: #9b59b6; }
+  .teal { background-color: #1abc9c; }
+  .pink { background-color: #ff6b81; }
+  .brown { background-color: #8e44ad; }
+  .gray { background-color: #7f8c8d; }
+
+
+.container-flex-col{
+    display: flex;
+    background-color: #41D3BD;
+    height: 30vh;
+    gap: 1rem ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+  .box-flex-col{
+    height: 15%;
+    aspect-ratio: 1/1;
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+  }
+  /* Couleurs */
+  .red { background-color: #e74c3c; }
+  .blue { background-color: #3498db; }
+  .green { background-color: #2ecc71; }
+  .orange { background-color: #f39c12; }
+  .purple { background-color: #9b59b6; }
+  .teal { background-color: #1abc9c; }
+  .pink { background-color: #ff6b81; }
+  .brown { background-color: #8e44ad; }
+  .gray { background-color: #7f8c8d; }
+
+  .wrap{
+    flex-wrap: wrap;
+  }
+.container-flex{
+    display: flex;
+    background-color: #41D3BD;
+    height: 30vh;
+    gap: 1rem;
+}
+.box-flex{
+    height: 30%;
+    background-color: blue;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+/* Couleurs */
+  .red { background-color: #e74c3c; }
+  .blue { background-color: #3498db; }
+  .green { background-color: #2ecc71; }
+  .orange { background-color: #f39c12; }
+  .purple { background-color: #9b59b6; }
+  .teal { background-color: #1abc9c; }
+  .pink { background-color: #ff6b81; }
+  .brown { background-color: #8e44ad; }
+  .gray { background-color: #7f8c8d; }
+
+  
+  
