@@ -1,3 +1,17 @@
+/* Les variables */
+:root {
+    /* Une variable permet de sauvegarder ou de nommer  une couleur, une taille */
+    --bleu-color: #A4B8FF;
+    --orange-color: #FD8900; 
+    --yellow-color: #F3D220;
+    --square-size: 80px
+}
+
+
+
+
+
+
 .container-flex{
     display: flex;
     background-color: #41D3BD;
@@ -99,4 +113,92 @@
   .gray { background-color: #7f8c8d; }
 
   
+  .container-flex{
+    display: flex;
+    background-color: #4e190a;
+    height: 20vh;
+    gap: 1rem;
+    width: 100%;
+    
+}
+.container-flex{
+  display: flex;
+  background-color: rgb(220, 214, 214);
+  height: 20vh;
+  gap: 1rem ;
+  width: 100%;
+
+}
+.box-flex{
+  height: 30%;
+    background-color: blue;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.space-between{
+  justify-content: space-between;
+}
+
+
+/* CSS TP */
+
+.main {
+display: flex;
+height: 75vh;
+width: 100%;
+background-color: rgb(249, 242, 243);
+flex-direction: column;
+gap: 1rem;
+}
+
+.block-h40{
+  display: flex;
+  height: 40%;
+  width: 100%;
+  background-color: rgb(247, 243, 243);
+  gap: 1rem;
+}
+.block-h50{
+  height: 50%;
+  width: 100%;
+  background-color: var(--bleu-color);
   
+}
+
+.block-h60{
+  display: flex;
+  height: 60%;
+  width: 100%;
+  background-color: rgb(243, 246, 239);
+  gap: 1rem;
+}
+/* Les deux blocs ci-dessous ont une taille de  100%  de hauteur du parent qui est de 40% */
+
+.block-w20{
+height: 100%;
+width: 20%;
+background-color: orange;
+}
+.block-w50{
+height: 100%;
+width: 50%;
+background-color: rgb(242, 244, 248);
+}
+
+
+.block-w80{
+height: 100%;
+width: 80%;
+background-color: yellow;
+}
+
+.block-orange{
+  background-color: var(--orange-color);
+}
+.flex-col{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+

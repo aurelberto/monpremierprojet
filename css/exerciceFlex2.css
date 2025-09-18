@@ -1,0 +1,171 @@
+.main{
+    height:100vh ;
+    display: flex;
+    width: 100%;
+    background-color: aqua;
+    flex-direction: column;
+    gap: 1rem ;
+    
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    background-color: blue;
+    height: 7vh;
+    gap: 1rem  ;
+}
+.nav{
+    width: 100%;
+    height: 7vh;
+    background-color: purple;
+    flex-wrap: wrap;
+
+    
+}
+
+ul > li{
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    color: rgb(6, 6, 6);
+   
+}
+.bar-search{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: fit-content;
+    height: 3vh;
+    
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 7vh;
+    background-color: orange;
+    gap: 1rem;
+}
+.home{
+    background-color: cadetblue;
+    padding: 4PX;
+    border-radius: 10px;
+}
+.project{
+    background-color: orange;
+    padding: 4px;
+border-radius: 10px;
+}
+.stats{
+    background-color: brown;
+    padding: 4px;
+    border-radius: 10px;
+}
+.docs{
+    background-color: pink;
+    padding: 4px;
+    border-radius: 10px;
+}
+.param{
+background-color: rgb(154, 9, 33);
+    padding: 4px;
+    border-radius: 10px;
+}
+.team{
+background-color: rgb(95, 96, 154);
+    padding: 4px;
+    border-radius: 10px;
+}
+.task{
+    background-color: rgb(127, 85, 138);
+    padding: 4px;
+    border-radius: 10px;
+}
+input{
+    background-color: rgb(59, 150, 73);
+    width: 35%;
+}
+.btn-blue{
+    background-color: rgb(74, 74, 167);
+    padding: 4px;
+    border-radius: 5px;
+    border: none;
+}
+.btn-green{
+    background-color: rgb(46, 200, 37);
+    padding: 4px;
+    border-radius: 5px;
+    border: none;
+}
+.flex-container{
+    display: flex;
+    gap: 1rem  ;
+}
+.container-menu{
+display: flex;
+flex-direction: column;
+width: 10%;
+
+}
+
+.menu-top{
+    display: flex;
+    padding: 1px;
+    flex-direction: column;
+    color: black;
+    margin: 0px;
+    margin-bottom: 20px;
+    gap: 5px;
+}
+#flex{
+    display: flex;
+}
+footer{
+    background-color: rgb(155, 36, 155);
+    padding: 3px;
+    justify-content: end;
+    
+}
+.pink{
+    background-color: rgb(224, 116, 206);
+    padding: 4px;
+    border-radius: 10%;
+}
+.blue{
+    background-color: rgb(56, 130, 216);
+    padding: 4px;
+    border-radius: 10%;
+}
+.green{
+    background-color: rgb(68, 113, 68);
+    padding: 4px;
+    border-radius: 10%;
+}
+.orange{
+    background-color: orange;
+    padding: 4px;
+    border-radius: 10%;
+}
+.blueb{
+    background-color: blue;
+    padding: 4px;
+    border-radius: 10%;
+}
+.greenb{
+    background-color: green;
+    padding: 4px;
+    border-radius: 10%;
+}
+
+.container-center{
+    display: flex;
+    background-color: pink;
+    width: 70%;
+    height: 65vh;
+    justify-content: center;
+    flex-direction: row;
+
+}
