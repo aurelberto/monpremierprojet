@@ -1,0 +1,103 @@
+@font-face {
+    font-family: "vibes";
+    src: url("../fonts/GreatVibes-Regular.ttf");
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5vh;
+}
+h1, h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+h3, h4 {
+    text-decoration: underline;
+}
+p {
+    margin-left: 2rem;
+    margin-bottom: 0.2rem;
+}
+.static { 
+    width: 50px;
+    height: 50px;
+    position: static;
+    background-color: blue;
+
+}
+.absolute-orphan { 
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: rgb(211, 37, 130);
+    top: 65%;
+    left: 60%;
+
+}
+
+.container-relative > img{  
+    width: 20%;
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+
+}
+
+    
+.flex-overflow{
+    justify-content: center;
+    display: flex;
+}
+.overflow {
+    overflow: hidden;
+    width: 20%;
+    position: relative;
+    width: 30%;
+    height: 30VH;
+    border-radius: 10px;
+}
+
+
+.title-product{
+    font-family: "vibes", sans-serif;
+    position: absolute;
+    font-size: 2rem;
+    font-weight: bold;
+    z-index: 10;
+    margin: 0;
+    left: 15%;
+    top: 3%;
+    background-color: rgba(255, 235, 50, alpha);
+    padding: 0.5rem;
+    border-radius: 10px;
+    opacity: 0.5;
+    
+}
+.title-product p {
+    margin: 0;
+}
+
+.fixed-element{
+    position: fixed;
+    height: 5vh;
+    background-color: teal;
+    color: white;
+    /* Mettre toujours un top, ou un bottom meme si il égal à 0 */
+    top: 0vh;
+    width: 100%;
+    z-index: 11;
+}
+
+.sticky{
+    height: 20vh;
+    width: 10%;
+    background-color: yellow;
+    position: sticky;
+    top: 0;
+    z-index: 12;
+}

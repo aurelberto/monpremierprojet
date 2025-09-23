@@ -187,6 +187,7 @@ footer{
     display: flex;
     gap: 0.5rem;
     font-weight: bold ;
+    text-align: left;
 }
 .container-stat-header{
 width: 70%;
